@@ -1,6 +1,6 @@
 #!/usr/bin/python
-from BbsPy3.RTree.rTree import RTree
-from BbsPy3.Bbs.Heap import Heap
+from external.BBS.RTree.RTree.rTree import RTree
+from external.BBS.Bbs.Heap import Heap
 
 class Bbs():
     """BBS Algorithm Class"""
