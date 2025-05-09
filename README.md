@@ -11,5 +11,6 @@ This project provides an efficient Skyline computation using a spatial access me
 Clone the repository:
 
 ```bash
-git clone https://github.com/Turlure-Nael-23018992/BBS-Python-3.x-.git
-cd BBS
+git clone --recurse-submodules https://github.com/Turlure-Nael-23018992/BBS-Python-3.x-.git
+cd BBS-Python-3.x-
+git submodule update --init --recursive
