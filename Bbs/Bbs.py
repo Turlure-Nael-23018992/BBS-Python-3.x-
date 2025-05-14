@@ -83,15 +83,15 @@ class Bbs():
             else:
                 # Case: It's a leaf point -> add it to the skyline
                 skylines.append(key)
-        """
-        print("============================================================")
+
+        """print("============================================================")
         print("sp=", sp)
         print("layer=", layer)
         print("lm=", lm)
         print("minIdp=", minIdp)
         print("see=", see)
-        print("===========================================================")
-        """
+        print("===========================================================")"""
+
         # Return the results
         # skylines: list of skyline points
         # comparirions: number of dominance comparisons
