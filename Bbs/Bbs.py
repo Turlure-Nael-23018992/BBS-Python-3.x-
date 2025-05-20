@@ -1,5 +1,5 @@
-from RTree.RTree.rTree import RTree
-from Heap import Heap
+from external.BBS.RTree.RTree.rTree import RTree
+from external.BBS.Bbs.Heap import Heap
 
 class Bbs():
     """BBS Algorithm Class"""
